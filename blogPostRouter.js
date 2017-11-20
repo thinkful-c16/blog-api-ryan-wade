@@ -8,6 +8,7 @@ const jsonParser = bodyParser.json();
 
 const {BlogPosts} = require('./models');
 
+//dummy data blog posts
 BlogPosts.create('How to Code 102', 'Wade', 'This book teaches intermediate coding');
 BlogPosts.create('How to Code 101', 'Ryan', 'This book teaches coding basics');
 
